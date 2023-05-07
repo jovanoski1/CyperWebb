@@ -97,6 +97,8 @@ li h4 {
     background: #0990A9;
     border: 5px solid #0990A9;
     border-radius: 10px;
+    font-family: 'Rubik';
+    font-weight: 400;
 }
 .mycard_button:hover{
     text-decoration: none;
@@ -111,6 +113,8 @@ li h4 {
     background: #FFC045;
     border: 5px solid #FFC045;
     border-radius: 10px;
+    font-family: 'Rubik';
+    font-weight: 400;
 }
 .domain_input{
     border: none;
@@ -297,4 +301,6 @@ li h4 {
     background: #FFC045;
     border: 5px solid #FFC045;
     color: #EEEEEE;
+    font-family: 'Rubik';
+    font-weight: 400;
 }
