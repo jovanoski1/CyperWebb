@@ -1,0 +1,296 @@
+.logo_title{
+    font-family: 'Space Mono';
+    font-weight: 400;
+    /* font-size: 48.83px; */
+    margin-top: auto;
+    margin-bottom: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+
+}
+.preporucujemo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono'; 
+    font-weight: 400;
+}
+
+.navbar-nav > li {
+    margin-left: 30px;
+}
+.nav-link{
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 20px;
+    color: #EEEEEE;
+}
+
+.navbar{
+    height: 150px;
+}
+
+#logo{
+    margin-left: 50px;
+}
+
+#advertisement{
+    border-radius: 20px;
+    height: 300px;
+}
+
+li h4 {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+.mycard{
+    min-height: 395px;
+    border: 5px solid #0990A9;
+    border-radius: 10px;
+    max-width: 280px;
+    align-items: center;
+    margin-top: 60px;
+}
+.mycard_highlighted{
+    min-height: 395px;
+    border: 5px solid #FFC045;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 280px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.mycard_title{
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    text-align: center;
+}
+.mycard_price{
+    font-family: 'Rubik';
+    font-weight: 700;
+}
+.mycard_per{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+}
+.desc{
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+.mycard_button{
+    /* -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    text-align: center; */
+
+    color: initial;
+    height: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #0990A9;
+    border: 5px solid #0990A9;
+    border-radius: 10px;
+}
+.mycard_button:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: initial;
+}
+.mycard_button_highlighted{
+    height: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFC045;
+    border: 5px solid #FFC045;
+    border-radius: 10px;
+}
+.domain_input{
+    border: none;
+    background: #FFC045;
+}
+.domain_input:focus{
+    outline: none;
+}
+.domain_input::placeholder{
+    color: #222222;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+}
+
+.domain_price{
+    font-family: 'Rubik';
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-weight: 400;
+}
+
+.footer_link{
+    font-family: 'Rubik';
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+    color: #EEEEEE;
+}
+.footer_about{
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    color: #EEEEEE;
+}
+.mail_input{
+    border: none;
+    background: #EEEEEE;
+    border-radius: 10px;
+}
+.mail_input:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 300px){
+    .side_title{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px){
+    .hosting_cardleft{
+        border-width: 5px 5px 1px 5px;
+        border-style: solid;
+        border-color: #FFC045;
+        border-radius: 5px;
+    }
+    .hosting_cardmid{
+        border: 5px solid #FFC045;
+        border-radius: 10px;
+    }
+    .hosting_cardright{
+        border-width: 1px 5px 5px 5px;
+        border-style: solid;
+        border-color: #FFC045;
+        border-radius: 5px;
+    }
+}
+@media screen and (min-width: 768px){
+    .hosting_cardleft{
+        border-width: 5px 1px 5px 5px;
+        border-style: solid;
+        border-color: #FFC045;
+        border-radius: 5px;
+    }
+    .hosting_cardmid{
+        border: 5px solid #FFC045;
+        border-radius: 10px;
+    }
+    .hosting_cardright{
+        border-width: 5px 5px 5px 1px;
+        border-style: solid;
+        border-color: #FFC045;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 1199px){
+    h1 {
+        font-size: 28px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    .preporucujemo{
+        font-size: 16px;
+    }
+    .mycard_title{
+        min-height: 48px;
+    }
+    .domain_input::placeholder{
+        font-size: 12px;
+    }
+    .hosting_desc{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 39.06px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .domain_input::placeholder{
+        font-size: 20px;
+    }
+    .preporucujemo{
+        font-size: 24px;
+    }
+    .hosting_desc{
+        font-size: 16px;
+    }
+}
+@media screen and (max-device-width: 480px){
+    h1 {
+        font-size: 28px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    .preporucujemo{
+        font-size: 16px;
+    }
+    .mycard_title{
+        min-height: 48px;
+    }
+    .domain_input::placeholder{
+        font-size: 12px;
+    }
+    .hosting_desc{
+        font-size: 12px;
+    }
+}
+
+
+.hosting_card_title{
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    text-align: center;
+}
+.hosting_desc{
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+.kupi_button{
+    height: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFC045;
+    border: 5px solid #FFC045;
+    color: #EEEEEE;
+}
